@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import Header from '../subject-header';
-import './math.module.scss';
+import SubjectHeader from '../components/subject-header';
+import styles from './math.module.scss';
 
 class Math extends Component {
   render() {
     return (
-      <div>
-        <Header subject="math"/>
+      <div className={styles.math}>
+        <SubjectHeader subject="math"/>
+        <section className={styles['math__content']}></section> 
       </div>
     );
   }

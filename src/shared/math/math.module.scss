@@ -1,0 +1,12 @@
+.math {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh; // Will change to inherit height once the rest of the content is created
+    width: 90vw; // Will change to inherit height once the rest of the content is created
+
+    &__content {
+        background-color: #FBA41B;
+        flex-grow: 1;
+    }
+}

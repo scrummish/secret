@@ -5,8 +5,8 @@ import styles from './SubjectHeader.module.scss';
 
 const Header = ({subject})=>(
     <div className={styles.header}> 
-        <AppBar className={styles['header-container']} position="relative">
-            <h2 className={styles['header-title']}> {subject} </h2>
+        <AppBar className={styles['header__container']} position="relative">
+            <h2 className={styles['header__title']}> {subject} </h2>
         </AppBar>
     </div>
 )

@@ -4,11 +4,11 @@
     font-size: 9rem;
     text-transform: uppercase;
 
-    &-main {
+    &__main {
         @extend .heading;
     }
 
-    &-secondary {
+    &__secondary {
         @extend .heading;
 
         -webkit-background-clip: text;
@@ -18,7 +18,7 @@
         letter-spacing: .2rem;
     }
         
-    &-superhero {
+    &__superhero { // 4-8th grade
         @extend .heading;
 
         color: #fff;
@@ -31,6 +31,8 @@
         transition-property: font-size;
         z-index: 10;
     }
-        // blocks
-        // https://codepen.io/carlitocenteno/pen/Akatb
+
+    &__blocks { // kinder-3rd grade
+        @extend .heading;
+    }
 }
