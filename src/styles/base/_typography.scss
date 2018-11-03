@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+.heading {    
+    font-size: 9rem;
+    text-transform: uppercase;
+
+    &-main {
+        @extend .heading;
+    }
+
+    &-secondary {
+        @extend .heading;
+
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(to right, #AA56FF, #110529);
+        color: transparent;
+        letter-spacing: .2rem;
+    }
+        
+    &-superhero {
+        @extend .heading;
+
+        color: #fff;
+        font-weight: normal;
+        white-space: nowrap;
+        font-family: 'Bangers', cursive;
+        text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.7);
+        transform: skew(4deg, -2deg);
+        transition-duration: .5s;
+        transition-property: font-size;
+        z-index: 10;
+    }
+        // blocks
+        // https://codepen.io/carlitocenteno/pen/Akatb
+}

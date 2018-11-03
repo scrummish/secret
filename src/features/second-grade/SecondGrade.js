@@ -6,7 +6,7 @@ class SecondGrade extends Component {
   render() {
     return (
       <div>
-        <p>SecondGrade</p>
+        <p>Second Grade</p>
       </div>
     );
   }
