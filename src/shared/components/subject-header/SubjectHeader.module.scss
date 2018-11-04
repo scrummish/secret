@@ -3,20 +3,14 @@
 $header-height: 12rem;
 
 .header {
+    background-color: $color-primary !important;
     height: $header-height;
     width: 100%;
-
-    &__container {
-        background-color: #1B94FB !important;
-        height: inherit;
-    }
 
     &__title {
         line-height: $header-height;
         margin: 0;
-        padding: 0 0 0 2rem;
+        padding: 0 0 0 5rem;
         text-align: left;
-
-        @extend .heading__superhero;
     }
 }

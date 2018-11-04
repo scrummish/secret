@@ -3,20 +3,24 @@ import AppBar from '@material-ui/core/AppBar';
 import PropTypes from 'prop-types';
 import styles from './SubjectHeader.module.scss';
 
-const Header = ({subject})=>(
-    <div className={styles.header}> 
-        <AppBar className={styles['header__container']} position="relative">
-            <h2 className={styles['header__title']}> {subject} </h2>
-        </AppBar>
-    </div>
-)
+const Header = ({ className, subject })=>{
+    const classNames = [styles['header__title'], className].join(' ');
+
+    return (
+        <AppBar className={styles.header} position="relative">
+            <h2 className={classNames}> { subject } </h2>
+        </AppBar> 
+    )
+}
 
 Header.defaultProps = {
-    subject: 'Unknown'
+    subject: 'Unknown',
+    className: ''
 }
 
 Header.propTypes = {
-    subject: PropTypes.string
+    subject: PropTypes.string,
+    className: PropTypes.string
 }
 
 export default Header;
