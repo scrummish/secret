@@ -1,5 +1,4 @@
 import React from 'react';
-import AppBar from '@material-ui/core/AppBar';
 import PropTypes from 'prop-types';
 import styles from './SubjectHeader.module.scss';
 
@@ -7,15 +6,15 @@ const Header = ({ className, subject })=>{
     const classNames = [styles['header__title'], className].join(' ');
 
     return (
-        <AppBar className={styles.header} position="relative">
+        <div className={styles.header}>
             <h2 className={classNames}> { subject } </h2>
-        </AppBar> 
+        </div> 
     )
 }
 
 Header.defaultProps = {
     subject: 'Unknown',
-    className: ''
+    className: 'heading__secondary'
 }
 
 Header.propTypes = {

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Math from './shared/math';
+import Subject from './shared/containers/subject';
 import './App.scss';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Math/>
+        <Subject/>
       </div>
     );
   }

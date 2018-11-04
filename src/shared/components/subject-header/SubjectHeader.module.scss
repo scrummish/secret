@@ -1,9 +1,9 @@
 @import '../../../styles/main';
 
-$header-height: 12rem;
+$header-height: 15rem;
 
 .header {
-    background-color: $color-primary !important;
+    background-color: rgba($color-primary, .9) !important;
     height: $header-height;
     width: 100%;
 
