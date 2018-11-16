@@ -1,6 +1,7 @@
 @import '../../../../styles/main';
 
 .content {
-    background-color: $color-primary !important;
+    background-color: $color-secondary !important;
     flex-grow: 1;
+    margin: 0 1.5rem 1.5rem 1.5rem;
 }

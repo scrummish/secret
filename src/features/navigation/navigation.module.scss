@@ -1,1 +1,6 @@
-.nav {}
+@import '../../styles/main';
+
+// redo this without hte use of important
+.nav {
+    background-color: $color-primary !important;
+}
