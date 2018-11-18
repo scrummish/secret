@@ -1,7 +1,6 @@
-import * as actions from './actions';
-import * as components from './components';
-import * as constants from './constants';
+// Public API for the Subject Module
 import reducer from './reducer';
-import * as selectors from './selectors';
+import * as constants from './constants';
+import container from './subjectContainer';
 
-export default { actions, components, constants, reducer, selectors };
+export default { reducer, constants, container };

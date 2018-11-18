@@ -1,6 +1,6 @@
-import * as types from './actionTypes';
+// import types from './actionTypes';
 
-export const add = (text) => ({
-  type: types.ADD,
-  payload: { text }
-});
+// export const add = (value) => ({
+//   type: types.ADD,
+//   payload: { value }
+// });

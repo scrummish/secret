@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import Navigation from './features/navigation';
-import Subject from './features/subject/components/subject';
-import SubjectHeader from './features/subject/components/subject-header';
-import SubHeader from './features/subject/components/subject-sub-header';
-import SubjectContent from './features/subject/components/subject-content';
+import Subject from './features/subject/subjectContainer';
 import './App.scss';
 
 class App extends Component {
@@ -11,11 +8,7 @@ class App extends Component {
     return (
       <div>
         <Navigation/>
-        <Subject 
-          subjectheader={ <SubjectHeader subject="math" className="heading__superhero"/> }
-          subheader={ <SubHeader/> }
-          content={ <SubjectContent/> }
-        />
+        <Subject/>
       </div>
     );
   }
