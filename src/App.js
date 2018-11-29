@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Login from './features/login';
 import Navigation from './features/navigation';
 import './App.scss';
 
@@ -8,10 +9,9 @@ const { Subject } = subjectModule;
 class App extends Component {
   render() {
     return (
-      <div>
-        <Navigation/>
-        <Subject/>
-      </div>
+      <>
+        <Login/>
+      </>
     );
   }
 }

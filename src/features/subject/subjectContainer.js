@@ -1,4 +1,4 @@
-import Subject from './subject.js';
+import Subject from './Subject.js';
 import { connect } from 'react-redux';
 
 const mapStateToProps = state => {
