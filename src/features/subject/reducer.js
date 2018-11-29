@@ -1,5 +1,5 @@
 const initialState = {
-    name: 'Subject Container',
+    title: 'Subject Container',
     grade: 0
 }
 

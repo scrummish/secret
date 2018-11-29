@@ -1,0 +1,13 @@
+@import '../../styles/main';
+
+.subject {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: calc(100vh - 64px); // Will change to automatically adjust depending on the content with a minimum height
+    width: 100%;
+
+    &__header {
+        margin: 1.5rem;
+    }
+}

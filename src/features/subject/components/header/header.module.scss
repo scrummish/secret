@@ -1,0 +1,7 @@
+@import '../../../../styles/main';
+
+.header {
+    background-color: rgba($color-primary, .9) !important;
+    height: $header-height;
+    width: 100%;
+}
