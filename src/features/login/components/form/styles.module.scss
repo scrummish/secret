@@ -1,14 +1,15 @@
 @import '../../../../styles/main';
 
 .form {
-    background-color: #f7f7f7;
+    background-color: rgba(#f7f7f7, .25);
     border-radius: 1rem;
     box-shadow: 0px 0px 0px 1rem $color-tertiary;
     height: 35rem;
+    padding: 2.5rem;
     position: absolute;
     right: 15rem;
     top: 60%;
     transform: translate(0, -60%);
-    width: 55rem;
+    width: 45rem;
     z-index: 1;
 }
